@@ -1,1 +1,144 @@
+// * DEFAULTS
+@import "defaults/reboot";
+
+// * VARIABLES
+@import "variables/color";
+@import "variables/general";
+@import "variables/type";
+
+// * BASE
+@import "base/layout";
 @import "base/typography";
+
+// * ATTRIBUTES
+@import "attributes/background";
+@import "attributes/shadow";
+
+// * COMPONENTS
+@import "components/button";
+@import "components/card";
+@import "components/form";
+@import "components/global-notification";
+@import "components/image";
+@import "components/main";
+@import "components/material-icons";
+@import "components/nav-list";
+@import "components/off-canvas";
+@import "components/section";
+@import "components/side-nav";
+@import "components/top-nav";
+
+// * UTILITIES
+@import "utilities/helpers";
+@import "utilities/position";
+
+html, body {
+  font-feature-settings: "swsh";
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.backdrop {
+  grid-gap: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+  + * {
+    position: relative;
+  }
+}
+
+.bg-pattern-dark {
+  background: url('../images/bg-pattern-dark.svg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 320px;
+}
+
+.bg-pattern-light {
+  background: url('../images/bg-pattern-light.svg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 320px;
+}
+
+.bg-pattern-primary {
+  background: url('../images/bg-pattern-primary.svg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 320px;
+}
+
+.bg-pattern-accent {
+  background: url('../images/bg-pattern-accent.svg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 320px;
+}
+
+// nav
+.header {
+  display: grid;
+  background: transparent;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  padding: 4rem 1rem;
+  position: relative;
+  align-items: center;
+  .nav {
+    height: 4rem;
+    grid-column: 3 / span 8;
+    grid-gap: 0;
+    text-align: center;
+    align-items: center;
+    &-link {
+
+    }
+  }
+}
+
+.nav {
+  background-color: white;
+  border-radius: 8px;
+  height: auto;
+  padding: 0 1rem;
+  &-link {
+    color: #7c7c7c ;
+    display: block;
+    font-size: .5rem;
+    font-weight: $font-weight-05;
+    line-height: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s;
+    &.active {
+      background: #bcbcbc;
+      color: #fb3600;
+    }
+    &:hover {
+      background-color: white;
+    }
+  }
+}
+
+.plate {
+  border-radius: 1rem;
+  padding: 8rem 6rem;
+  position: relative;
+}
+
+.fancy-text {
+  font-family: $font-03;
+  font-style: italic;
+  color: #bcbcbc;
+  font-size: 1.25rem;
+}
+
+.straddle-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%,50%);
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <title>logo-mark-color</title>
+  <g>
+    <rect x="10.346" y="10.346" width="75.307" height="75.307" rx="12.679" ry="12.679" transform="translate(-19.882 48) rotate(-45)" fill="#fb3600"/>
+    <rect x="25.5" y="33" width="45" height="40.5" rx="6" ry="6" fill="#787878" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+    <rect x="25.726" y="25.726" width="44.548" height="44.548" rx="7.5" ry="7.5" transform="translate(-19.882 48) rotate(-45)" fill="#fab900" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+    <rect x="25.5" y="30" width="45" height="39" rx="6" ry="6" fill="#787878" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+    <rect x="25.5" y="25.5" width="45" height="39" rx="6" ry="6" fill="#fab900"/>
+    <rect x="25.5" y="25.5" width="45" height="39" rx="6" ry="6" fill="none" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M56.25,55.75h0a46.113,46.113,0,0,1-16.5,0h0" fill="none" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+    <circle cx="55.5" cy="44.5" r="6" fill="none" stroke="#787878" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M44.743,48.743a6,6,0,1,1,0-8.486" fill="none" stroke="#787878" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
