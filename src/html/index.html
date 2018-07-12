@@ -8,21 +8,28 @@
 
 {% block content %}
   <div class="backdrop two-column grid">
-    <div class="bg-pattern-accent"></div>
-    <div class="bg-pattern-accent"></div>
+    <div class="bg-pattern-primary"></div>
+    <div class="bg-pattern-light"></div>
   </div>
   <header class="header layout">
     <div class="logo-mark">
       <img src="images/logo-mark-color.svg">
     </div>
-
+    <div class="nav four-column grid">
+      <a class="nav-link" href="#">Fonts</a>
+      <a class="nav-link active" href="#">Work</a>
+      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">Contact</a>
+    </div>
   </header>
   <div class="plate layout narrow bg-pattern-accent centered" style="padding-bottom: 5rem;">
     <img class="mb-02" src="images/logo-type-color.svg">
     <p class="fancy-text">
-      Coming soon!
+      Fonts, not food!
     </p>
-
+    <div class="straddle-bottom-right">
+      <img src="images/sticker-01.svg">
+    </div>
   </div>
 
 {% endblock %}
