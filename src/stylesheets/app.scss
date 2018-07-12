@@ -39,58 +39,50 @@ html, body {
   overflow-x: hidden;
 }
 
-.backdrop {
-  grid-gap: 0;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  pointer-events: none;
-  + * {
-    position: relative;
-  }
+// .backdrop {
+//   grid-gap: 0;
+//   position: fixed;
+//   height: 100%;
+//   width: 100%;
+//   z-index: 0;
+//   pointer-events: none;
+//   + * {
+//     position: relative;
+//   }
+// }
+
+
+.hero {
+  padding: 8rem 4rem;
+}
+.bg-pattern-01 {
+  background: url('../images/bg-pattern-01.svg');
+  background-attachment: fixed;
+  background-position: top right;
+  background-size: 512px;
 }
 
-.bg-pattern-dark {
-  background: url('../images/bg-pattern-dark.svg');
+.bg-pattern-02 {
+  background: url('../images/bg-pattern-02.svg');
   background-attachment: fixed;
-  background-position: center center;
-  background-size: 320px;
+  background-position: 393px 514px;
+  background-size: 512px;
 }
 
-.bg-pattern-light {
-  background: url('../images/bg-pattern-light.svg');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 320px;
-}
 
-.bg-pattern-primary {
-  background: url('../images/bg-pattern-primary.svg');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 320px;
-}
-
-.bg-pattern-accent {
-  background: url('../images/bg-pattern-accent.svg');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 320px;
-}
 
 // nav
 .header {
   display: grid;
-  background: transparent;
+  background: #000001;
   grid-template-columns: repeat(12, [col-start] 1fr);
-  padding: 4rem 1rem;
+  padding: 1rem 2rem;
   position: relative;
   align-items: center;
   .nav {
-    height: 4rem;
-    grid-column: 3 / span 8;
-    grid-gap: 0;
+    height: 3rem;
+    grid-column: 4 / span 6;
+    grid-gap: 3px;
     text-align: center;
     align-items: center;
     &-link {
@@ -100,22 +92,22 @@ html, body {
 }
 
 .nav {
-  background-color: white;
-  border-radius: 8px;
+  background: #000001;
   height: auto;
-  padding: 0 1rem;
+  padding: 3px 3px;
   &-link {
-    color: #7c7c7c ;
+    border-radius: 2rem;
+    color: #fab900 ;
     display: block;
     font-size: .5rem;
     font-weight: $font-weight-05;
-    line-height: 4rem;
+    line-height: 3rem;
     text-decoration: none;
     text-transform: uppercase;
     transition: .33s;
     &.active {
-      background: #bcbcbc;
-      color: #fb3600;
+      background: #f9d971;
+      color: #000001;
     }
     &:hover {
       background-color: white;
@@ -123,17 +115,21 @@ html, body {
   }
 }
 
-.plate {
-  border-radius: 1rem;
-  padding: 8rem 6rem;
-  position: relative;
+.padded {
+  padding: 4rem 2rem;
 }
 
 .fancy-text {
   font-family: $font-03;
   font-style: italic;
-  color: #bcbcbc;
+  color: #fab900;
   font-size: 1.25rem;
+  font-weight: $font-weight-05;
+  letter-spacing: .5px;
+  padding: 1rem 2rem;
+  background: #000001;
+  display: inline-block;
+  border-radius: 2rem;
 }
 
 .straddle-bottom-right {
@@ -141,4 +137,11 @@ html, body {
   bottom: 0;
   right: 0;
   transform: translate(50%,50%);
+}
+
+.straddle-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,50%);
 }
