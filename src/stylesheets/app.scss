@@ -34,9 +34,8 @@
 
 html, body {
   font-feature-settings: "swsh";
-  height: 100%;
   margin: 0;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 // .backdrop {
@@ -51,33 +50,46 @@ html, body {
 //   }
 // }
 
+body {
+  background: url('../images/bg-pattern-02.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 1024px;
+}
 
 .hero {
-  padding: 8rem 4rem;
+  padding: 10rem 4rem;
+  border-radius: 0 0 50% 50%;
+  background: url('../images/bg-pattern-01.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 1024px;
 }
 .bg-pattern-01 {
-  background: url('../images/bg-pattern-01.svg');
+  background: url('../images/bg-pattern-01.png');
   background-attachment: fixed;
-  background-position: top right;
-  background-size: 512px;
+  background-position: center center;
+  background-size: 1024px;
 }
 
 .bg-pattern-02 {
-  background: url('../images/bg-pattern-02.svg');
+  background: url('../images/bg-pattern-02.png');
   background-attachment: fixed;
-  background-position: 393px 514px;
-  background-size: 512px;
+  background-position: center center;
+  background-size: 1024px;
 }
 
 
 
 // nav
 .header {
+  border-radius: 1rem;
   display: grid;
-  background: #000001;
+  background: #fff;
   grid-template-columns: repeat(12, [col-start] 1fr);
   padding: 1rem 2rem;
-  position: relative;
+  position: sticky;
+  top: 0;
   align-items: center;
   .nav {
     height: 3rem;
@@ -92,12 +104,10 @@ html, body {
 }
 
 .nav {
-  background: #000001;
   height: auto;
-  padding: 3px 3px;
   &-link {
     border-radius: 2rem;
-    color: #fab900 ;
+    color: #fb3600 ;
     display: block;
     font-size: .5rem;
     font-weight: $font-weight-05;
@@ -106,8 +116,8 @@ html, body {
     text-transform: uppercase;
     transition: .33s;
     &.active {
-      background: #f9d971;
-      color: #000001;
+      background: #fb3600;
+      color: #fab900;
     }
     &:hover {
       background-color: white;
@@ -122,7 +132,7 @@ html, body {
 .fancy-text {
   font-family: $font-03;
   font-style: italic;
-  color: #fab900;
+  color: #fb3600;
   font-size: 1.25rem;
   font-weight: $font-weight-05;
   letter-spacing: .5px;
