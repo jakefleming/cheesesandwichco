@@ -46,12 +46,13 @@
   "fonts/JamRegular.eot": "fonts/JamRegular-d1bb86ecb3.eot",
   "fonts/JamRegular.woff": "fonts/JamRegular-9a86858357.woff",
   "fonts/JamRegular.woff2": "fonts/JamRegular-9016160007.woff2",
+  "images/Artboard 1.png": "images/Artboard 1-3071338b39.png",
   "images/Artboard 1.svg": "images/Artboard 1-aee771516b.svg",
   "images/avatar.png": "images/avatar-c346431680.png",
-  "images/bg-pattern-01.png": "images/bg-pattern-01-8b3f1ba9d5.png",
+  "images/bg-pattern-01.png": "images/bg-pattern-01-4cf01f705e.png",
   "images/bg-pattern-01.svg": "images/bg-pattern-01-e339c1abad.svg",
   "images/bg-pattern-01_1.svg": "images/bg-pattern-01_1-946e86f84f.svg",
-  "images/bg-pattern-02.png": "images/bg-pattern-02-85b8a2c3eb.png",
+  "images/bg-pattern-02.png": "images/bg-pattern-02-6aca1ec7ba.png",
   "images/bg-pattern-02.svg": "images/bg-pattern-02-917edfc2dd.svg",
   "images/bg-pattern-accent.svg": "images/bg-pattern-accent-4195f0d8a3.svg",
   "images/bg-pattern-dark.svg": "images/bg-pattern-dark-bfcddaf9d7.svg",
@@ -62,5 +63,5 @@
   "images/sticker-01.svg": "images/sticker-01-e9bc71ee8b.svg",
   "images/twitter-bg.png": "images/twitter-bg-76ad1fee92.png",
   "javascripts/app.js": "javascripts/app-b6ac862fd4bcfbac1d03.js",
-  "stylesheets/app.css": "stylesheets/app-4b5010ba3d.css"
+  "stylesheets/app.css": "stylesheets/app-053e54dbde.css"
 }
