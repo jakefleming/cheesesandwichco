@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="470" height="266" viewBox="0 0 470 266">
+  <defs>
+    <clipPath id="a">
+      <polygon points="147.986 -152.341 469.118 -41 469.118 -392 147.986 -392 147.986 -152.341" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>spec-goiters-comic-p3</title>
+  <g>
+    <g clip-path="url(#a)">
+      <circle cx="611.955" cy="323.093" r="592.071" fill="#fab900" stroke="#fb3600" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="1.5" y="0.854" width="467" height="264.292" fill="#fb3600"/>
+      <polygon points="14.819 1.303 71.849 53.315 1.5 34.123 2.137 120.944 35.295 130.944 1.5 134.706 2.137 243.408 34.332 231.421 21.41 265.146 202.152 265.146 206.794 238.111 216.948 265.146 400.592 265.146 375.642 226.216 431.344 265.146 468.5 265.146 468.5 158.039 449.653 143.021 468.5 126.997 468.5 9.21 412.827 41.653 440.918 0.854 210.525 0.854 204.059 25.449 189.108 0.854 14.819 1.303" fill="#fab900" stroke="#fb3600" stroke-miterlimit="10" stroke-width="2"/>
+      <rect x="1.5" y="0.854" width="467" height="264.292" fill="none" stroke="#fb3600" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
