@@ -13,3 +13,63 @@
     }
   }
 }
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-yellow {
+  background: #fab900!important;
+}
+
+.bg-blue {
+  background: #a2e4fd!important;
+}
+
+.bg-red {
+  background: #fb3600!important;
+}
+
+.bg-stars {
+  background:url(../images/bg-stars.svg)!important;
+}
+
+.bg-stars-02 {
+  background:url(../images/bg-stars-02.svg)!important;
+}
+
+.bg-pattern-01 {
+  background-image: url('../images/bg-pattern-01.png')!important;
+  background-attachment: fixed!important;
+  background-position: center center!important;
+  background-size: 1024px!important;
+}
+
+.bg-pattern-02 {
+  background-image: url('../images/bg-pattern-02.png')!important;
+  background-attachment: fixed!important;
+  background-position: center center!important;
+  background-size: 1024px!important;
+}
+
+.bg-pattern-03 {
+  background-image: url('../images/bg-pattern-03.png')!important;
+  background-attachment: fixed!important;
+  background-position: center center!important;
+  background-size: 1024px!important;
+}
+
+.bg-pattern-04 {
+  background-image: url('../images/bg-pattern-04.png')!important;
+  background-attachment: fixed!important;
+  background-position: center center!important;
+  background-size: 1024px!important;
+}
+
+.bg-character {
+  background:url(../images/bg-goiters-cat.svg)!important;
+  background-color: white!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  background-position: center center!important;
+}

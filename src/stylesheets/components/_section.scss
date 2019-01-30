@@ -1,6 +1,9 @@
 // * SECTION
 .section {
-  padding: $space*8 $space*2;
+  padding: $space*6 $space*2;
+  @media (max-width: 768px) {
+    padding:2rem!important;
+  }
 }
 
 // ** LIGHT

@@ -25,17 +25,17 @@ label {
   background: white;
   border: 0;
   border-radius: 0;
-  box-shadow: inset 0px -2px black;
+  box-shadow: inset 0px -2px $brand-color-03;
   color: black;
   font-family: $font-01;
   font-weight: $font-weight-02;
-  font-size: 1rem;
+  font-size: .75rem;
   line-height: 1.5rem;
   outline: none;
   padding: $space 4px;
   position: relative;
   resize: none;
-  display: block;
+  // display: block;
   width: 100%;
 }
 
@@ -90,21 +90,17 @@ textarea.form-text {
 //placeholder
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgba(0,0,0,.5);
-  font-family: $font-02;
-  font-style: italic;
+  font-family: $font-01;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: rgba(0,0,0,.5);
-  font-family: $font-02;
-  font-style: italic;
+  font-family: $font-01;
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: rgba(0,0,0,.5);
-  font-family: $font-02;
-  font-style: italic;
+  font-family: $font-01;
 }
 :-moz-placeholder { /* Firefox 18- */
   color: rgba(0,0,0,.5);
-  font-family: $font-02;
-  font-style: italic;
+  font-family: $font-01;
 }

@@ -467,19 +467,19 @@
           <g>
             <g>
               <rect x="244.75" y="120.503" width="22.5" height="14.5" rx="1.25" ry="1.25" fill="#fb3600"/>
-              <path d="M266,121.253a.5.5,0,0,1,.5.5v12a.5.5,0,0,1-.5.5H246a.5.5,0,0,1-.5-.5v-12a.5.5,0,0,1,.5-.5h20m0-1.5H246a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h20a2,2,0,0,0,2-2v-12a2,2,0,0,0-2-2Z" fill="#47f0fc"/>
+              <path d="M266,121.253a.5.5,0,0,1,.5.5v12a.5.5,0,0,1-.5.5H246a.5.5,0,0,1-.5-.5v-12a.5.5,0,0,1,.5-.5h20m0-1.5H246a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h20a2,2,0,0,0,2-2v-12a2,2,0,0,0-2-2Z" fill="#a2e4fd"/>
               <rect x="244" y="119.753" width="24" height="16" rx="2" ry="2" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
             </g>
             <polygon points="262.75 131.753 261.5 136.753 250.25 136.753 249.25 131.753 262.75 131.753" fill="#fb3600" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
           </g>
           <g>
             <polygon points="256 107.753 272 121.753 272 124.253 256 138.253 240 124.253 240 121.753 256 107.753" fill="#fab900" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
-            <polygon points="256 107.753 272 121.753 256 135.753 240 121.753 256 107.753" fill="#47f0fc" stroke="#fb3600" stroke-linejoin="round"/>
+            <polygon points="256 107.753 272 121.753 256 135.753 240 121.753 256 107.753" fill="#a2e4fd" stroke="#fb3600" stroke-linejoin="round"/>
           </g>
           <g>
             <g>
               <rect x="244.75" y="116.503" width="22.5" height="14.5" rx="1.25" ry="1.25" fill="#fb3600"/>
-              <path d="M266,117.253a.5.5,0,0,1,.5.5v12a.5.5,0,0,1-.5.5H246a.5.5,0,0,1-.5-.5v-12a.5.5,0,0,1,.5-.5h20m0-1.5H246a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h20a2,2,0,0,0,2-2v-12a2,2,0,0,0-2-2Z" fill="#47f0fc"/>
+              <path d="M266,117.253a.5.5,0,0,1,.5.5v12a.5.5,0,0,1-.5.5H246a.5.5,0,0,1-.5-.5v-12a.5.5,0,0,1,.5-.5h20m0-1.5H246a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h20a2,2,0,0,0,2-2v-12a2,2,0,0,0-2-2Z" fill="#a2e4fd"/>
               <rect x="244" y="115.753" width="24" height="16" rx="2" ry="2" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
             </g>
             <rect x="244" y="111.753" width="24" height="16" rx="2" ry="2" fill="#fab900" stroke="#fb3600" stroke-miterlimit="10"/>
@@ -490,12 +490,12 @@
           <circle cx="250.5" cy="119.753" r="2" fill="#fb3600" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
           <circle cx="261.5" cy="119.753" r="2" fill="#fb3600" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round"/>
         </g>
-        <circle cx="262.25" cy="119.003" r="0.5" fill="#47f0fc"/>
-        <circle cx="260.75" cy="119.003" r="0.5" fill="#47f0fc"/>
-        <path d="M262.75,120.253a1.281,1.281,0,0,1-2.5,0c0-.552.56,0,1.25,0S262.75,119.7,262.75,120.253Z" fill="#47f0fc"/>
-        <path d="M251.75,120.253a1.281,1.281,0,0,1-2.5,0c0-.552.56,0,1.25,0S251.75,119.7,251.75,120.253Z" fill="#47f0fc"/>
-        <circle cx="249.75" cy="119.003" r="0.5" fill="#47f0fc"/>
-        <circle cx="251.25" cy="119.003" r="0.5" fill="#47f0fc"/>
+        <circle cx="262.25" cy="119.003" r="0.5" fill="#a2e4fd"/>
+        <circle cx="260.75" cy="119.003" r="0.5" fill="#a2e4fd"/>
+        <path d="M262.75,120.253a1.281,1.281,0,0,1-2.5,0c0-.552.56,0,1.25,0S262.75,119.7,262.75,120.253Z" fill="#a2e4fd"/>
+        <path d="M251.75,120.253a1.281,1.281,0,0,1-2.5,0c0-.552.56,0,1.25,0S251.75,119.7,251.75,120.253Z" fill="#a2e4fd"/>
+        <circle cx="249.75" cy="119.003" r="0.5" fill="#a2e4fd"/>
+        <circle cx="251.25" cy="119.003" r="0.5" fill="#a2e4fd"/>
       </g>
       <g>
         <g>
@@ -1421,7 +1421,7 @@
             <path d="M103.719,34.886a8.94,8.94,0,1,1,14.835,9.981l-8.963,13.322c-2.757,4.1-17.592-5.884-14.835-9.981Z" fill="#fb3600"/>
             <ellipse cx="117.461" cy="37.989" rx="2.427" ry="3.091" transform="translate(13.252 104.177) rotate(-50.344)" fill="#fab900"/>
             <path d="M112.8,31.209c7.375,3.375,7.685,9.561,4.928,13.658l-8.963,13.322" fill="none" stroke="#fab900" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
-            <ellipse cx="117.924" cy="37.688" rx="1.125" ry="1.432" transform="translate(13.652 104.425) rotate(-50.344)" fill="#a2e4fd"/>
+            <ellipse cx="117.924" cy="37.688" rx="1.125" ry="1.432" transform="matrix(0.638, -0.77, 0.77, 0.638, 13.652, 104.425)" fill="#a2e4fd"/>
             <path d="M103.719,34.886a8.94,8.94,0,1,1,14.835,9.981l-8.963,13.322c-2.757,4.1-17.592-5.884-14.835-9.981Z" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
           </g>
           <g>
@@ -1993,9 +1993,9 @@
           <circle cx="-0.586" cy="218.172" r="1" fill="#fab900"/>
           <path d="M6,227h6a8,8,0,0,0,8-8h0" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
           <line x1="6" y1="225" x2="14" y2="225" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-          <circle cx="5" cy="215" r="4" fill="#a2e4fd"/>
+          <circle cx="5" cy="215" r="4" fill="#a2e4fd" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
           <line x1="5" y1="221" x2="5" y2="217" fill="none" stroke="#fb3600" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-          <path d="M8,216c2.583,4.667-.667,5.458,0,8" fill="none" stroke="#a2e4fd" stroke-linecap="round" stroke-miterlimit="10"/>
+          <path d="M7.5,216c2.583,4.667-.667,5.458,0,8" fill="none" stroke="#a2e4fd" stroke-linecap="round" stroke-miterlimit="10"/>
         </g>
         <g>
           <path d="M520,229h-8a6.023,6.023,0,0,1-4.243-1.757l-2-2a6,6,0,1,1,8.486-8.486l2,2L512,217h8a6,6,0,0,1,0,12Z" fill="#fb3600"/>

@@ -57,33 +57,24 @@ body {
   background-size: 1024px;
 }
 
-.hero {
-  padding: 10rem 4rem;
-  border-radius: 0 0 50% 50%;
-  background: url('../images/bg-pattern-01.png');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 1024px;
-}
-.bg-pattern-01 {
-  background: url('../images/bg-pattern-01.png');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 1024px;
+a.card {
+  text-decoration: none;
 }
 
-.bg-pattern-02 {
-  background: url('../images/bg-pattern-02.png');
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 1024px;
+.hero {
+  padding: 2rem 4rem;
+  border-radius: 5000px;
+  background-image: url('../images/bg-pattern-01.png');
+  background-attachment: fixed!important;
+  background-position: center center!important;
+  background-size: 1024px!important;
 }
 
 
 
 // nav
 .header {
-  border-radius: 1rem;
+  border-radius: 0;
   display: grid;
   background: #fff;
   grid-template-columns: repeat(12, [col-start] 1fr);
@@ -91,12 +82,24 @@ body {
   position: sticky;
   top: 0;
   align-items: center;
+  z-index: 100;
+  @media (max-width: 768px) {
+    padding: .5rem 1rem;
+  }
   .nav {
     height: 3rem;
     grid-column: 4 / span 6;
     grid-gap: 3px;
     text-align: center;
     align-items: center;
+    @media (max-width: 768px) {
+      height: 2rem;
+      grid-column: 2 / span 10;
+      &-link {
+        line-height: 2rem;
+        font-size: .45rem;
+      }
+    }
     &-link {
 
     }
@@ -154,4 +157,201 @@ body {
   bottom: 0;
   left: 50%;
   transform: translate(-50%,50%);
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+
+@keyframes floatingSkewedTop {
+    from {
+      transform: translate(0,  0px) rotateY(45deg);
+      perspective: 1px;
+    }
+    65%  {
+      transform: translate(0, 15px) rotateY(0deg);
+      perspective: 2000px;
+    }
+    to   {
+      transform: translate(0, -0px) rotateY(45deg);
+      perspective: 1px;
+    }
+}
+
+@keyframes kradoom {
+    from {
+      color: $brand-color-02;
+      font-weight: 100;
+      transform: scale(1);
+    }
+    65%  {
+      color: $brand-color-03;
+      font-weight: 800;
+      transform: scale(1.25);
+    }
+    to   {
+      color: $brand-color-02;
+      font-weight: 100;
+      transform: scale(1);
+    }
+}
+
+@keyframes kradoomTwo {
+    from {
+      color: $brand-color-02;
+      font-weight: 100;
+      transform: scale(1);
+    }
+    65%  {
+      color: white;
+      font-weight: 800;
+      transform: scale(1.25);
+    }
+    to   {
+      color: $brand-color-02;
+      font-weight: 100;
+      transform: scale(1);
+    }
+}
+
+.sexy-cat {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  animation-name: floating;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+$kradoom-duration: 1s;
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.death-cat {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation-name: floatingSkewedTop;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+}
+
+.kra-doom {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 800;
+  transform: rotateZ(3deg) translate(-50%, -50%);
+  * {
+    color: white;
+    animation-name: kradoomTwo;
+    animation-duration: $kradoom-duration;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    &:nth-child(2) {
+      color: $brand-color-03;
+      animation-name: kradoom;
+      animation-delay: $kradoom-duration*.65;
+      animation-duration: $kradoom-duration;
+      animation-timing-function: ease-in-out;
+    }
+  }
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.comic-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(0,-1px, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(0,2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(0,-4px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0,4px, 0);
+  }
+}
+
+.edit-badge {
+  font-size: .5rem;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  &-01 {
+    background: $brand-color-02;
+    color: $brand-color-03;
+  }
+  &-02 {
+    background: $brand-color-04;
+    color: $brand-color-03;
+  }
+}
+
+.tilt-left {
+  transform: rotateZ(-3deg);
+}
+
+.section-heading {
+  border-radius: 1000px;
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: $brand-color-03;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-weight: $font-weight-08;
+  font-family: $font-01;
+  // text-shadow: 0 4px $brand-color-03;
+}
+
+.logo-type {
+  max-width: 400px;
+  margin: 0 auto;
+
 }

@@ -2,14 +2,25 @@ body {
   font-family: $font-01;
 }
 
+b{
+  font-weight: $font-weight-05;
+}
+
+a {
+  color: $brand-color-03;
+}
+
 // * BODY COPY
 .body-copy {
-  font-size: 1rem;
+  color: #787878;
+  font-size: 12px;
+  line-height: 20px;
   font-weight: $font-weight-03;
   margin-bottom: 2rem;
 }
 .big.body-copy {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  line-height: 24px;
 }
 .small.body-copy {
   color: rgba(0,0,0,.5);
@@ -24,34 +35,59 @@ body {
   @include textTransform();
   font-family: $font-heading;
   font-size: 3rem;
-  font-style: italic;
   line-height: $line-height*3;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 .level-two.heading {
   @include textTransform();
   font-family: $font-heading;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 3rem;
+  font-weight: $font-weight-08;
   margin-bottom: $space*2;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 .level-three.heading {
   @include textTransform();
   font-family: $font-heading;
   font-size: 2rem;
-  font-style: italic;
+  font-weight: $font-weight-07;
   margin-bottom: $space;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+.level-four.heading {
+  @include textTransform();
+  color: #787878;
+  font-family: $font-heading;
+  font-size: 1rem;
+  font-weight: $font-weight-05;
+  margin-bottom: $space;
+  @media (max-width: 768px) {
+    font-size: .75rem;
+  }
 }
 
 .big.heading {
   font-family: $font-heading;
-  font-size: 4rem;
-  font-style: italic;
+  font-size: 5rem;
   font-weight: $font-weight-08;
   margin-bottom: $space*1.5;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .alternate.heading {
   font-family: $font-03;
+}
+
+.fancy.heading {
+  text-shadow: 0 .1em 0 #a2e4fd;
 }
 
 // * CENTERED
@@ -68,4 +104,32 @@ body {
 }
 .inline-block {
   display: inline-block;
+}
+
+// * COLORS
+.text-color-red {
+  color: #fb3600!important;
+}
+.text-color-white {
+  color: #fff!important;
+}
+
+.text-color-blue {
+  color: #a2e4fd!important;
+}
+
+.text-color-yellow {
+  color: #fab900!important;
+}
+
+.face-goiters {
+  font-family: $font-01!important;
+}
+
+.face-boxout {
+  font-family: $font-02!important;
+}
+
+.face-boxout-super-wide {
+  font-family: $font-04!important;
 }
